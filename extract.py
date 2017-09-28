@@ -76,5 +76,5 @@ if __name__ == "__main__":
     print("100% Extracted")
     print("Begin Analysis.....")
     print("Please Wait....\n\n")
-    abc3.run_classifier()
+    classify.run_classifier()
 
