@@ -26,6 +26,7 @@ amd64 xenial image built on 2017-09-19
 [url=http://postimg.org/image/sw6f20b7p/][img]https://s26.postimg.org/sw6f20b7p/Untitled2.png[/img][/url]
 
 [url=http://postimg.org/image/umpg3hsqt/][img]https://s26.postimg.org/umpg3hsqt/Untitled3.png[/img][/url]
+![alt tag](https://s26.postimg.org/nuz10n3r9/Untitled.png/)
 
 ```
 until finished
