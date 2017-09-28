@@ -8,13 +8,13 @@ To Be Cont.
 ## Prerequisites
 
 # Software
-Python-opencv
-Tensorflow
-Pre-trained Imagenet Dataset
+*Python-opencv
+*Tensorflow
+*Pre-trained Imagenet Dataset
 
-Tested on Ubuntu 16.04 LTS
-amd64 xenial image built on 2017-09-19
-8-core CPU
+*Tested on Ubuntu 16.04 LTS
+*amd64 xenial image built on 2017-09-19
+*8-core CPU
 
 
 ## Screenshots
@@ -69,22 +69,22 @@ start time : 0:11:39
 
 ## Installation
 
-Simply clone the repo
-Paste your video in videos folder
-Done
+*Simply clone the repo
+*Paste your video in videos folder
+*Done
 ```
 Give an example
 ```
 
 ## Running
 
-To Run , simply run this command from the root of directory.
+*To Run , simply run this command from the root of directory.
 
 ```
 python extract.py ./videos -o ./images --skip 75
 
 ```
-The given video "05_05.mp4" is of 25 fps
+*The given video "05_05.mp4" is of 25 fps
 ## Author
 
 # Jai Janyani
