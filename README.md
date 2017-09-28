@@ -19,14 +19,9 @@ amd64 xenial image built on 2017-09-19
 
 ## Screenshots
 
-
-
-[url=http://postimg.org/image/nuz10n3r9/][img]https://s26.postimg.org/nuz10n3r9/Untitled.png[/img][/url]
-
-[url=http://postimg.org/image/sw6f20b7p/][img]https://s26.postimg.org/sw6f20b7p/Untitled2.png[/img][/url]
-
-[url=http://postimg.org/image/umpg3hsqt/][img]https://s26.postimg.org/umpg3hsqt/Untitled3.png[/img][/url]
-![alt tag](http://postimg.org/image/nuz10n3r9/)
+![untitled](https://user-images.githubusercontent.com/15799933/30987030-31fd434c-a4b3-11e7-80d9-29eba48668d8.png)
+![untitled3](https://user-images.githubusercontent.com/15799933/30987031-321dc90a-a4b3-11e7-84e4-3b0c6e1607eb.png)
+![untitled2](https://user-images.githubusercontent.com/15799933/30987032-32275fd8-a4b3-11e7-88ea-8f4f8e638c0e.png)
 
 ```
 until finished
