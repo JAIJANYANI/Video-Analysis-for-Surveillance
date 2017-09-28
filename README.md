@@ -8,13 +8,13 @@ To Be Cont.
 ## Prerequisites
 
 # Software
-*Python-opencv
-*Tensorflow
-*Pre-trained Imagenet Dataset
+* Python-opencv
+* Tensorflow
+* Pre-trained Imagenet Dataset
 
-*Tested on Ubuntu 16.04 LTS
-*amd64 xenial image built on 2017-09-19
-*8-core CPU
+* Tested on Ubuntu 16.04 LTS
+* amd64 xenial image built on 2017-09-19
+* 8-core CPU
 
 
 ## Screenshots
@@ -33,35 +33,35 @@ To Be Cont.
 ## Output
 ```
 start time : 0:01:39
-start time : 0:02:09
+end time : 0:02:09
 
 
 start time : 0:03:45
-start time : 0:03:48
+end time : 0:03:48
 
 
 start time : 0:04:27
-start time : 0:04:33
+end time : 0:04:33
 
 
 start time : 0:06:57
-start time : 0:07:06
+end time : 0:07:06
 
 
 start time : 0:07:39
-start time : 0:08:15
+end time : 0:08:15
 
 
 start time : 0:08:18
-start time : 0:08:18
+end time : 0:08:18
 
 
 start time : 0:10:45
-start time : 0:10:48
+end time : 0:10:48
 
 
 start time : 0:11:36
-start time : 0:11:39
+end time : 0:11:39
 
 ```
 
@@ -69,16 +69,16 @@ start time : 0:11:39
 
 ## Installation
 
-*Simply clone the repo
-*Paste your video in videos folder
-*Done
+* Simply clone the repo
+* Paste your video in videos folder
+* Done
 ```
 Give an example
 ```
 
 ## Running
 
-*To Run , simply run this command from the root of directory.
+* To Run , simply run this command from the root of directory.
 
 ```
 python extract.py ./videos -o ./images --skip 75
