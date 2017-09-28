@@ -8,12 +8,12 @@ def run_classifier():
         list1 = glob.glob("./images/*.jpg")
         list1.sort()
         print("Printing the time of Interesting Events.....\n\n")
-        temp = str(test.run_inference_on_image())
+        temp = str(inference.run_inference_on_image())
         for i in range(len(list1) - 1):
-                test.imagePath = list1[i]
-                temp2 = str(test.run_inference_on_image2())
-                test.imagePath = list1[i+1]
-                temp = str(test.run_inference_on_image2())
+                inference.imagePath = list1[i]
+                temp2 = str(inference.run_inference_on_image2())
+                inference.imagePath = list1[i+1]
+                temp = str(inference.run_inference_on_image2())
                 if temp2 != temp:
                         print("Time : " + str(datetime.timedelta(seconds=(i*3))))
                         flist.extend([i*3])
