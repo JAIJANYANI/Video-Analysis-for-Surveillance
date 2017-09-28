@@ -35,9 +35,16 @@ def run_classifier():
 
 
 #        print(m)
-        with open("list.txt" , "w") as output:
-            output.write(str(m))
+#        print(type(m))
+        with open('list.txt' , 'w') as f:
+            print("Writing to file\n")
+        for i in range(0 , (len(m)-1)):
+            with open('list.txt' , 'a') as f:
+                print("\n", file=f)
+                print("start time : " + str(datetime.timedelta(seconds = int((m[i][0])) ))  , file=f)
+                print("end time : " + str(datetime.timedelta(seconds = int((m[i][len(m[i]) - 1])) )) , file=f )
         print("\n\nFinished Analysis\n\n")
         print("The time of all interesting events(in seconds) is stored in a File named list.txt ")
 if __name__ == '__main__':
         run_classifier()
+
