@@ -44,7 +44,7 @@ def run_classifier():
                 print("start time : " + str(datetime.timedelta(seconds = int((m[i][0])) ))  , file=f)
                 print("end time : " + str(datetime.timedelta(seconds = int((m[i][len(m[i]) - 1])) )) , file=f )
         print("\n\nFinished Analysis\n\n")
-        print("The time of all interesting events(in seconds) is stored in a File named list.txt ")
+        print("The timestanps of all interesting events is stored in a File named list.txt ")
 if __name__ == '__main__':
         run_classifier()
 
