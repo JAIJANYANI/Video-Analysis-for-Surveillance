@@ -29,4 +29,4 @@ end time : 0:10:48
 
 
 start time : 0:11:36
-start time : 0:11:39
+end time : 0:11:39
