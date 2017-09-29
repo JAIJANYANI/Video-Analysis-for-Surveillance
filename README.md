@@ -1,21 +1,49 @@
 # Video-Analysis-for-Surveillance
-Analyzing CCTV videos to find interesting events
+Analyzing CCTV videos to find timestamps of interesting events using deep learning
 
 ## Description
+Performed this analysis using image/video processing and deep learning algorithms.
 
-To Be Cont.
+
+The Project consist of three steps : 
+
+1.) Extracting frames from a video at regular intervals
+2.) Detecting change in every two consecutive frames in a sequence
+3.) Reporting timestamp for every change
+
 
 ## Prerequisites
 
 # Software
 * Python-opencv
-* Tensorflow
-* Pre-trained Imagenet Dataset
+* Tensorflow v 1.0 or later
+* Python 3.6.0 |Anaconda 4.3.0 (64-bit)|
 
 * Tested on Ubuntu 16.04 LTS
 * amd64 xenial image built on 2017-09-19
 * 8-core CPU
 
+
+## Installation
+
+* Simply clone the repository
+* Paste your video/videos in "videos" folder
+* Done
+
+
+## Running
+
+* Simply run this command from root directory.
+
+```
+python extract.py ./videos -o ./images --skip 75
+
+```
+* NOTE : Video should be present in "videos" folder
+       : Frames will be extracted in "images" folder
+       : --skip = 3*FPS
+       : The provided video "05_05.mp4" has 25FPS , so skip = 75
+       
 
 ## Screenshots
 
@@ -68,25 +96,7 @@ end time : 0:11:39
 ```
 
 
-
-## Installation
-
-* Simply clone the repo
-* Paste your video in videos folder
-* Done
-```
-Give an example
-```
-
-## Running
-
-* To Run , simply run this command from the root of directory.
-
-```
-python extract.py ./videos -o ./images --skip 75
-
-```
-*The given video "05_05.mp4" is of 25 fps
+       
 ## Author
 
 # Jai Janyani
