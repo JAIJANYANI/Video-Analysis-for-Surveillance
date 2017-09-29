@@ -7,9 +7,9 @@ Performed this analysis using image/video processing and deep learning algorithm
 
 The Project consist of three steps : 
 
-1.) Extracting frames from a video at regular intervals
-2.) Detecting change in every two consecutive frames in a sequence
-3.) Reporting timestamp for every change
+1.) Extracting frames from a video at regular intervals<br />
+2.) Detecting change in every two consecutive frames in a sequence<br />
+3.) Reporting timestamp for every change<br />
 
 
 ## Prerequisites
@@ -17,11 +17,9 @@ The Project consist of three steps :
 # Software
 * Python-opencv
 * Tensorflow v 1.0 or later
-* Python 3.6.0 |Anaconda 4.3.0 (64-bit)|
+* Python 3.6.0 |Anaconda 4.3.0 (64-bit)|<br />
 
-* Tested on Ubuntu 16.04 LTS
-* amd64 xenial image built on 2017-09-19
-* 8-core CPU
+Tested on Ubuntu 16.04 LTS amd64 xenial image built on 2017-09-19 8-core CPU
 
 
 ## Installation
@@ -39,10 +37,10 @@ The Project consist of three steps :
 python extract.py ./videos -o ./images --skip 75
 
 ```
-* NOTE : Video should be present in "videos" folder
-       : Frames will be extracted in "images" folder
-       : --skip = 3*FPS
-       : The provided video "05_05.mp4" has 25FPS , so skip = 75
+* NOTE : Video should be present in "videos" folder<br />
+       : Frames will be extracted in "images" folder<br />
+       : --skip = 3*FPS<br />
+       : The provided video "05_05.mp4" has 25FPS , so skip = 75<br />
        
 
 ## Screenshots
