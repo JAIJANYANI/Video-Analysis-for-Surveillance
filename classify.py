@@ -38,7 +38,7 @@ def run_classifier():
 #        print(type(m))
         with open('list.txt' , 'w') as f:
             print("Writing to file\n")
-        for i in range(0 , (len(m)-1)):
+        for i in range(0 , (len(m))):
             with open('list.txt' , 'a') as f:
                 print("\n", file=f)
                 print("start time : " + str(datetime.timedelta(seconds = int((m[i][0])) ))  , file=f)
